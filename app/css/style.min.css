@@ -29,18 +29,18 @@ li {
 }
 
 body {
-  font-family: 'Roboto-Regular', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 15px;
   color: #546e7a;
   line-height: 24px;
-  font-weight: 400;
+  font-weight: 500;
   overflow-x: hidden;
 }
 
-@font-face {
-  font-family: 'Roboto-Regular', sans-serif;
-  src: url("../fonts/Roboto-Regular.woff2") format("woff2"), url("../fonts/Roboto-Regular.woff") format("woff");
-  font-display: swap;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 @font-face {
@@ -248,4 +248,35 @@ body {
 
 .icon-sort-amount-desc:before {
   content: "\ea4d";
+}
+
+.header__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 90px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+img {
+  width: 120px;
+}
+
+.headr__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu {
+  margin-right: 132px;
+}
+
+.header__btn:first-child {
+  margin-right: 32px;
 }

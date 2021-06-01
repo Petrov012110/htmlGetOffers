@@ -6,4 +6,21 @@
 @import 'media'; 
 
 
-  
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    align-items: center;
+}
+img{
+    width: 120px;
+}
+.headr__nav{
+    display: flex;
+}
+.menu{
+    margin-right: 132px;
+}
+.header__btn:first-child{
+    margin-right: 32px;
+}
