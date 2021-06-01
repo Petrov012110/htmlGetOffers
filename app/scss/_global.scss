@@ -9,11 +9,12 @@ html{
 html,
 body {
     height: 100%;
+    background-color: #f6f8f9;
 }
 a{
     display: inline-block;
     text-decoration: none;
-    color: $text;
+    color: #222835;
 }
 ul,
 li{
@@ -23,7 +24,7 @@ li{
 }
 body{
     font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     color: $text;
     line-height: 24px;
     font-weight: 500;
