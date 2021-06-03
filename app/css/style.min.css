@@ -313,6 +313,7 @@ img {
 .header__btn-registration {
   padding: 8px 18px;
   border: 2px solid #C0E3FF;
+  background-color: #f6f8f9;
   border-radius: 4px;
   color: #2E62D9;
   -webkit-transition: all 0.3s;
@@ -495,12 +496,15 @@ img {
 }
 
 .slide {
+  display: block !important;
   background-color: #f6f8f9;
   padding: 72px;
   max-width: 960px;
   width: 100%;
   min-height: 573px;
   margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .slider__text p {
@@ -508,4 +512,36 @@ img {
   font-size: 28px;
   line-height: 38px;
   color: #222835;
+}
+
+.description {
+  padding-top: 135px;
+  padding-bottom: 135px;
+  background-color: #f6f8f9;
+}
+
+.description__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.description__inner-image img {
+  width: 563px;
+}
+
+.description__inner-content .title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 46px;
+  color: #16151A;
+  margin-bottom: 40px;
+}
+
+.description__inner-content p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  color: #434854;
+  margin-bottom: 20px;
 }
