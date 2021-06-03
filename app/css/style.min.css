@@ -458,6 +458,54 @@ img {
           justify-content: space-between;
 }
 
+.steps__content .title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 38px;
+  color: #222835;
+}
+
 .mobile {
   width: 579px;
+}
+
+.step__text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  color: #16151A;
+}
+
+.slider__content {
+  margin: 0 auto;
+}
+
+.slider__title {
+  text-align: center;
+  margin-bottom: 90px;
+}
+
+.slider__title p {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 46px;
+  text-align: center;
+  color: #16151A;
+}
+
+.slide {
+  background-color: #f6f8f9;
+  padding: 72px;
+  max-width: 960px;
+  width: 100%;
+  min-height: 573px;
+  margin-bottom: 40px;
+}
+
+.slider__text p {
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 38px;
+  color: #222835;
 }
